@@ -235,3 +235,17 @@ p.click a{/*1268*/
     color: #fff;
     margin-left: 30px;
 }
+.checkALL{
+    vertical-align: middle;
+}
+.TeamServices{
+    width:1000px;
+    height:1000px;
+    margin: 50px auto
+}
+.TeamServices h3{
+    text-align: center;
+}
+.TeamServices h4{
+    margin-top: 30px;
+}
