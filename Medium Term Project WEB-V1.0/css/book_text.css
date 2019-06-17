@@ -23,7 +23,7 @@
 
 .book-form1{
     height:100%;
-    width:60%;
+    width:80%;
     margin:0 auto;
     margin-top:20px;
 
@@ -36,12 +36,13 @@
 
 
 .form-time-w3layouts{
-    width:25%;
+    width:17%;
     float:left;
     position:relative;
     min-height:1px;
     padding-right:15px;
     padding-left:15px;
+    margin-left:100px;
 }
 
 
@@ -57,6 +58,9 @@
 }
 .form-date-w3-agileits label{
     color:#fb383b;
+}
+.form-date-w3-agileits #phone{
+    width:100%;
 }
 
 .form-left-agileits-w3layouts label{
@@ -86,7 +90,7 @@
     margin-bottom:5px;
     background:#f8383b;
     border:none;
-    height:24px;
+    height:25px;
     padding:0 60px;
     width:100%
 }
