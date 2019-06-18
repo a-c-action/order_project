@@ -141,7 +141,31 @@ ul.top_icons li a:hover {
     height: 36px;
     background: rgba(27, 25, 25, 0.27);
 }
+.mobile-nav-button1 {
+    position: fixed;
+    margin: 47px 0 0 0px;
+    right: 5.5%;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: rgba(27, 25, 25, 0.27);
+}
 
+#trigger-overlay1 {
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    color: #fbfdfb;
+    font-size: 1.65em;
+    padding: 0 8px;
+}
+#trigger-overlay1 #imgorder{
+    width:23px;
+    height:22px;
+}
 .mobile-menu ul li {
     list-style: none;
     margin-bottom: 2em;
