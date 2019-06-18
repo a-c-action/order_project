@@ -200,7 +200,7 @@ a.hvr-shutter-in-horizontal:before {/*1165*/
 }
 p.click a{/*1268*/
     display: inline-block;
-    color:#f65a5b;
+    color:red;
 }
 .reg form input[type=submit]{/*1280*/
     border:none;
@@ -238,14 +238,16 @@ p.click a{/*1268*/
 .checkALL{
     vertical-align: middle;
 }
+
 .TeamServices{
     width:1000px;
     height:1000px;
-    margin: 50px auto
+    display: none;
+} 
+.TeamServices textarea{
+    font-size: 12;
 }
 .TeamServices h3{
     text-align: center;
 }
-.TeamServices h4{
-    margin-top: 30px;
-}
+
