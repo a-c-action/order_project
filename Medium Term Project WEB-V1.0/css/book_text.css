@@ -38,11 +38,16 @@
 .form-time-w3layouts{
     width:17%;
     float:left;
-    position:relative;
     min-height:1px;
     padding-right:15px;
     padding-left:15px;
-    margin-left:100px;
+}
+.form-left-agileits-submit{
+    width:16%;
+    float:right;
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
 }
 
 
