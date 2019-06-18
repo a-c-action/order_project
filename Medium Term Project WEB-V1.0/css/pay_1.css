@@ -31,10 +31,11 @@ div.responsive_tabs{
 	margin-bottom:20px;
 	height:36px;
 	border-top:1px solid gray;
-	background:#e6e6e5;
+	background:#000;
 	box-shadow:0 2px 3px gray;
 	color:#808080;
 	text-align:center;
+	color:#fff;
 
 }
 
