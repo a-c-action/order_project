@@ -28,6 +28,10 @@
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+
+	<script src="js/jquery-1.11.3.js"></script>
+    <script src="js/checkout.js"></script>
 </head>
 
 <body>
@@ -36,19 +40,18 @@
 		<div class="wrapper_top_w3layouts">
 			<div class="header_agileits">
 				<div class="logo inner_page_log">
-					<h1><a class="navbar-brand" href="index.html"><span>Downy</span> <i>Shoes</i></a></h1>
+					<h1><a class="navbar-brand" href="index.html"><span>美味的</span>食物</a></h1>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
 
 					<nav>
 						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="404.html">Team</a></li>
-							<li><a href="shop.html">Shop Now</a></li>
-							<li><a href="login.html">login</a></li>
-							<li><a href="register.html">Register</a></li>
+							<li><a href="index.html" class="active">主页</a></li>
+							<li><a href="about.html">餐厅介绍</a></li>
+							<li><a href="404.html">团队</a></li>
+							<li><a href="shop.html">点餐</a></li>
+							<li><a href="contact.html">联系我们</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -77,7 +80,7 @@
 			</div>
 			<div id="cd-search" class="cd-search">
 				<form action="#" method="post">
-					<input name="Search" type="search" placeholder="Click enter after typing...">
+					<input name="Search" type="search" placeholder="输入后按下回车键查询...">
 				</form>
 			</div>
 		</div>
@@ -88,8 +91,8 @@
 			<div class="inner_breadcrumb_agileits_w3">
 
 				<ul class="short">
-					<li><a href="index.html">Home</a><i>|</i></li>
-					<li>Check Out</li>
+					<li><a href="index.html">主页</a><i>|</i></li>
+					<li>结账</li>
 				</ul>
 			</div>
 		</div>
@@ -101,149 +104,203 @@
 	<div class="ads-grid_shop">
 		<div class="shop_inner_inf">
 			<div class="privacy about">
-				<h3>Chec<span>kout</span></h3>
-
-				<div class="checkout-right">
-					<h4>Your shopping cart contains: <span>3 Products</span></h4>
-					<table class="timetable_sub">
-						<thead>
-							<tr>
-								<th>SL No.</th>
-								<th>Product</th>
-								<th>Quality</th>
-								<th>Product Name</th>
-
-								<th>Price</th>
-								<th>Remove</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="rem1">
-								<td class="invert">1</td>
-								<td class="invert-image"><a href="single.html"><img src="images/s1.jpg" alt=" " class="img-responsive"></a></td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value"><span>1</span></div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Bella Toes</td>
-
-								<td class="invert">$675.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close1"> </div>
-									</div>
-
-								</td>
-							</tr>
-							<tr class="rem2">
-								<td class="invert">2</td>
-								<td class="invert-image"><a href="single.html"><img src="images/s5.jpg" alt=" " class="img-responsive"></a></td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value"><span>1</span></div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Red Bellies</td>
-
-								<td class="invert">$325.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close2"> </div>
-									</div>
-
-								</td>
-							</tr>
-							<tr class="rem3">
-								<td class="invert">3</td>
-								<td class="invert-image"><a href="single.html"><img src="images/s2.jpg" alt=" " class="img-responsive"></a></td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value"><span>1</span></div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Chikku Loafers</td>
-
-								<td class="invert">$405.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close3"> </div>
-									</div>
-
-								</td>
-							</tr>
-
-						</tbody>
-					</table>
+				<h3><span></span></h3>
+	<div id="main">
+		 <!--购物车顶部标题-->
+		 <h2>
+			结账
+			<p>
+				<span>
+					已点了：
+					<b class="total-num">0</b>
+					道菜
+				</span>
+				<span>
+					共计：
+					<b class="total-price">0.00</b>
+					元
+				</span>
+			</p>
+		 </h2>
+		 <!--购物车商品展示-->
+		 <div class="info">
+			<!--顶部工具栏-->
+			<div class="type">
+				<div class="check">
+					<img src="images/product_normal.png" class="checkAll">
+					全选
 				</div>
-				<div class="checkout-left">
-					<div class="col-md-4 checkout-left-basket">
-						<h4>Continue to basket</h4>
-						<ul>
-							<li>Product1 <i>-</i> <span>$675.00 </span></li>
-							<li>Product2 <i>-</i> <span>$325.00 </span></li>
-							<li>Product3 <i>-</i> <span>$405.00 </span></li>
-							<li>Total Service Charges <i>-</i> <span>$55.00</span></li>
-							<li>Total <i>-</i> <span>$1405.00</span></li>
-						</ul>
+				<div class="gname">菜品</div>
+				<div class="gprice">价格（元）</div>
+				<div class="gcount">数量</div>
+				<div class="gsum">金额</div>
+				<div class="action">操作</div>
+
+			</div>
+			<!--商品展示-->
+			<div class="content">
+				<!--商品记录-->
+				<div class="item">
+					<div class="check">
+						<img src="images/product_normal.png" class="checkItem">
+
 					</div>
+					<div class="gname">
+						<img src="images/checkout1.jpg">
+						<p>　　　　　　</p>
+						<p>麻辣小龙虾</p>
+						<p>　　　　　　</p>
+					</div>
+					<div class="gprice">
+						<h3>会员专享价</h3>
+						<p>￥ 69.00</p>
+					</div>
+					<div class="gcount">
+						<!--阻止超链接默认事件-->
+						<a href="javascript:void(0)" class="minus">-</a>
+						<input type="text" value="1">
+						<a href="javascript:void(0)" class="add">+</a>
+
+					</div>
+					<div class="gsum">￥ 79.00</div>
+					<div class="action">移除</div>
+
+				</div>
+				<div class="item">
+					<div class="check">
+						<img src="images/product_normal.png" class="checkItem">
+
+					</div>
+					<div class="gname">
+						<img src="images/checkout2.jpg">
+						<p>         </p>
+						<p>清蒸小龙虾</p>
+						<p>        </p>
+					</div>
+					<div class="gprice">
+						<h3>会员专享价</h3>
+						<p>￥ 109.00</p>
+					</div>
+					<div class="gcount">
+						<!--阻止超链接默认事件-->
+						<a href="javascript:void(0)" class="minus">-</a>
+						<input type="text" value="1">
+						<a href="javascript:void(0)" class="add">+</a>
+
+					</div>
+					<div class="gsum">￥ 129.00</div>
+					<div class="action">移除</div>
+
+				</div>
+				<div class="item">
+					<div class="check">
+						<img src="images/product_normal.png" class="checkItem">
+
+					</div>
+					<div class="gname">
+						<img src="images/checkout3.jpg">
+						<p>         </p>
+						<p>梅菜扣肉</p>
+						<p>         </p>
+					</div>
+					<div class="gprice">
+						<h3>会员专享价</h3>
+						<p>￥ 59.00</p>
+					</div>
+					<div class="gcount">
+						<!--阻止超链接默认事件-->
+						<a href="javascript:void(0)" class="minus">-</a>
+						<input type="text" value="1">
+						<a href="javascript:void(0)" class="add">+</a>
+
+					</div>
+					<div class="gsum">￥ 69.00</div>
+					<div class="action">移除</div>
+
+				</div>
+				<div class="item">
+					<div class="check">
+						<img src="images/product_normal.png" class="checkItem">
+
+					</div>
+					<div class="gname">
+						<img src="images/checkout4.jpg">
+						<p>         </p>
+						<p>宫保鸡丁</p>
+						<p>　　　　　</p>
+					</div>
+					<div class="gprice">
+						<h3>会员专享价</h3>
+						<p>￥ 49.00</p>
+					</div>
+					<div class="gcount">
+						<!--阻止超链接默认事件-->
+						<a href="javascript:void(0)" class="minus">-</a>
+						<input type="text" value="1">
+						<a href="javascript:void(0)" class="add">+</a>
+
+					</div>
+					<div class="gsum">￥ 59.00</div>
+					<div class="action">移除</div>
+
+				</div>
+
+			</div>
+
+
+
+		  </div>
+
+
+
+
+	</div>
+				<div class="checkout-left">
 					<div class="col-md-8 address_form">
-						<h4>Add a new Details</h4>
+						<h4>外卖服务</h4>
 						<form action="payment.html" method="post" class="creditly-card-form agileinfo_form">
 							<section class="creditly-wrapper wrapper">
 								<div class="information-wrapper">
 									<div class="first-row form-group">
 										<div class="controls">
-											<label class="control-label">Full name: </label>
-											<input class="billing-address-name form-control" type="text" name="name" placeholder="Full name">
+											<label class="control-label">您的姓名: </label>
+											<input class="billing-address-name form-control" type="text" name="name" placeholder="您的姓名">
 										</div>
 										<div class="card_number_grids">
 											<div class="card_number_grid_left">
 												<div class="controls">
-													<label class="control-label">Mobile number:</label>
-													<input class="form-control" type="text" placeholder="Mobile number">
+													<label class="control-label">您的手机号:</label>
+													<input class="form-control" type="text" placeholder="您的手机号">
 												</div>
 											</div>
 											<div class="card_number_grid_right">
 												<div class="controls">
-													<label class="control-label">Landmark: </label>
-													<input class="form-control" type="text" placeholder="Landmark">
+													<label class="control-label">您的地址: </label>
+													<input class="form-control" type="text" placeholder="地址">
 												</div>
 											</div>
 											<div class="clear"> </div>
 										</div>
 										<div class="controls">
-											<label class="control-label">Town/City: </label>
-											<input class="form-control" type="text" placeholder="Town/City">
+											<label class="control-label">门牌号: </label>
+											<input class="form-control" type="text" placeholder="门牌号">
 										</div>
 										<div class="controls">
-											<label class="control-label">Address type: </label>
+											<label class="control-label">地址标签: </label>
 											<select class="form-control option-w3ls">
-																							<option>Office</option>
-																							<option>Home</option>
-																							<option>Commercial</option>
-							
+																							<option>家</option>
+																							<option>公司</option>
+																							<option>学校</option>
+
 																					</select>
 										</div>
 									</div>
-									<button class="submit check_out">Delivery to this Address</button>
+									<button class="submit check_out">送货到此地址</button>
 								</div>
 							</section>
 						</form>
 						<div class="checkout-right-basket">
-							<a href="payment.html">Make a Payment </a>
+							<a href="payment.html">付款 </a>
 						</div>
 					</div>
 

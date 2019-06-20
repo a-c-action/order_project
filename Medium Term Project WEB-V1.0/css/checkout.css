@@ -170,7 +170,11 @@ td.invert-image a img {
 	margin-left:30px;
 }
 /* 2.2顶部工具栏 */
+.info{
+
+}
 .type{
+    width:1000px;
 	margin-top:25px;
 	height:36px;
 	border-top:1px solid gray;
@@ -274,6 +278,14 @@ td.invert-image a img {
 }
 .gcount .minus{
 	margin-left:35px;
+}
+
+.checkout-right h4,
+.address_form h4 {
+	font-size: 1.1em;
+	margin: 1em 0;
+	letter-spacing: 1px;
+	color: #888;
 }
 
 .checkout-left-basket h4 {
