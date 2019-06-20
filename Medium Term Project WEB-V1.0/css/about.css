@@ -10,19 +10,21 @@ body a {
     background: #f0f1f5;
 }
 .according_inner_grids {
-	padding: 6em 4em;
+	padding: 6em 2em 6em 7em;
 }
 .bar-grids{
+    position: relative;
+    float:left;
 	padding: 6em 5em;
+	z—index:1;
 }
 .mid_services_img {
-    background: url(../images/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 547px;
+    height: 400px;
 }
 .news-right p{
     line-height: 1.9em;
@@ -209,3 +211,12 @@ h3.heading.two.three {
 	
 }
 /*-- //Responsive --*/
+#videoabout{
+    height:100%;
+    overflow:hiddle;
+    margin-top:2%;
+    margin-left:10%;
+}
+#videoabout video{
+    height:100%;
+}
