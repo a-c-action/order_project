@@ -69,8 +69,8 @@ a:focus {
 .logo {
     position: absolute;
     z-index: 99;
-    left:7%;
-    top: 6.5%;
+    left:5%;
+    top: 3%;
 }
 .logo.inner_page_log {
     position: absolute;
@@ -82,7 +82,6 @@ a:focus {
     font-size: 0.7em;
     color: #fff;
     text-decoration: none;
-    border:1px solid #fff;
     text-transform: uppercase;
     font-weight: 300;
     display: block;
@@ -494,7 +493,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .banner-top2 {
-	background: url(../images/banner3.jpg) no-repeat 0px 0px;
+	background: url(../images/banner3.jpg);
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2358,3 +2357,5 @@ p.head_para {
 	height:300px;
 
 }
+
+
