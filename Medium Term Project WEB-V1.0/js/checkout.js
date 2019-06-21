@@ -8,7 +8,7 @@ $(function (){
 				.attr("src","images/product_normal.png");
 			$(".checkItem").removeAttr("checked")
 				.attr("src","images/product_normal.png")
-			
+
 		}else{
 			$(this).attr("checked","true")
 				.attr("src","images/product_true.png");
@@ -19,7 +19,7 @@ $(function (){
 			1.为全选按钮添加点击事件，事件函数中，判断当前按钮是否是选中状态（查看是否存在checked属性值）
 			2.如果当前元素存在checked属性值，说明本身为选中状态，需要修改为取消选中。（移除checked属性，修改状态标识；更改 图片路径）
 			3.根据全选按钮的状态获取商品按钮，统一调整状态标识和图片路径
-		
+
 		*/
 		sum();
 	})
@@ -53,7 +53,7 @@ $(function (){
 		$(this).prev().val(value);
 		countPrice($(this),value);
 		sum();
-	
+
 	})
 	$(".minus").click(function (){
 		var value = $(this).next().val();
@@ -73,7 +73,7 @@ $(function (){
 		var sum = price * value;
 		sum = sum.toFixed(2);
 		that.parent().next().html("￥ "+sum);
-	
+
 	}
 	//移除操作
 	$(".item .action").click(function (){
