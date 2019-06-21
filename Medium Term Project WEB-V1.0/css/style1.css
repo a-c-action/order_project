@@ -171,10 +171,10 @@ a.hvr-shutter-in-horizontal:before {/*1165*/
 }
 .reg ul li {/*1239*/
     display: inline-block;
-    width: 58%;
+    width: 30%;
 }
 .reg ul li.text-info{/*1243*/
-    width: 35%;
+    width: 15%;
     color: #204056;
     font-size: 16px;
     text-transform: uppercase;
@@ -182,7 +182,7 @@ a.hvr-shutter-in-horizontal:before {/*1165*/
     font-weight: bold;
 }
 .reg form input[type="text"],.reg form input[type="password"] {/*1251*/
-    width: 100%;
+    width: 200px;
     padding: 8px;
     font-size: 14px;
     font-weight: 400;
@@ -196,7 +196,7 @@ a.hvr-shutter-in-horizontal:before {/*1165*/
 }
 .reg-right{/*1264*/
     float:right;
-    width:47%
+    width:40%
 }
 p.click a{/*1268*/
     display: inline-block;
@@ -250,4 +250,25 @@ p.click a{/*1268*/
 .TeamServices h3{
     text-align: center;
 }
-
+.reg b{
+    color: red;
+}
+.imVer{
+    width: 100px;
+    height: 38px;
+    float: right;
+    margin-right: 250px;
+}
+.aVer{
+    float: left;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 450px;
+}
+.inputVer{
+    color: white;
+    background-color:#2020f9e6;
+    width: 150px;
+    height: 38px;
+    border: none;
+}
