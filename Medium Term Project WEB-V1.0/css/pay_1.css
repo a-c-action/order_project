@@ -9,11 +9,11 @@
 }
 .privacy_about{
     margin:0 auto;
-    width:1000px;
+    width:1400px;
     height:88px;
 }
 div.responsive_tabs{
-    width:1000px;
+    width:1400px;
     height:95px;
     margin-top:30px;
     border-bottom:1px solid gray;
@@ -23,10 +23,10 @@ div.responsive_tabs{
 
 .goods_info{
     margin:0 auto;
-    width:1000px;
+    width:1400px;
 }
 .type{
-    width:1000px;
+    width:1400px;
 	margin-top:25px;
 	margin-bottom:20px;
 	height:36px;
@@ -46,23 +46,23 @@ div.responsive_tabs{
 	line-height:36px;
 }
 .gatter{
-	width:380px;
+	width:480px;
 }
 .gprice{
-	width:162px;
+	width:262px;
 }
 .gcount{
-	width:150px;
+	width:250px;
 }
 .address{
-	width:200px
+	width:300px
 }
 
 /*settlement*/
 .settlement{
     float:right;
-    background:#a46450;
-    width:60px;
+    background:#000;
+    width:100px;
     height:30px;
     text-align:center;
     margin-top:5px;
@@ -91,4 +91,26 @@ div.responsive_tabs{
 }
 .goods_items p{
     /*line-height:79px;*/
+}
+
+/*Qr_code*/
+#qr_code .qr_code{
+    width:400px;
+    height:400px;
+    text-align:center;
+}
+#qr_code{
+    /*display:none;*/
+    /*display: block;*/
+    position: fixed;
+    /* z-index: 100; */
+    width: 400px;
+    height: 400px;
+    background: #fff0;
+    right: 750px;
+    bottom: 350px;
+    text-align: center;
+}
+.qr_codeNone{
+    display:none;
 }
