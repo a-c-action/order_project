@@ -30,6 +30,8 @@ $(function (){
 				.attr("src","images_pay/pay_1.png");
 
 		}
+
+
 	})
 
     //结算
