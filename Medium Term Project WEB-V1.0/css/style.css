@@ -75,8 +75,8 @@ a:focus {
 .logo.inner_page_log {
     position: absolute;
     z-index: 99;
-    left: 7%;
-    margin-top: 47px;
+    left:5%;
+    margin-top: 30px;
 }
 .navbar-brand {
     font-size: 0.7em;
