@@ -14,6 +14,8 @@ $(function (){
 		}
 	})
 	$(".inputVer").click(function(){
+		var now = new Date();
+		console.log(now)
 		var i=60;
 		var timer=setInterval(function(){
 			$(".inputVer").html(i+"s后可再获取")
