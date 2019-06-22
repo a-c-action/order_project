@@ -20,18 +20,7 @@ $(function (){
 		}
 	})
 
-	//
-//    $(".check_2").click(function (){
-//		if($(".check_2").attr("checked")){
-//			$(".check_2").removeAttr("checked")
-//				.attr("src","images_pay/pay_3.png");
-//		}else {
-//			$('.check_2').attr("checked","true")
-//				.attr("src","images_pay/pay_4.png");
-//			$('.check_1').attr("checked","true")
-//				.attr("src","images_pay/pay_1.png");
-//		}
-//	})
+
     	//选择支付方式
 	$(".check_2").click(function (){
 		//判断当前元素是否为选中状态，如果是选中则取消选中
