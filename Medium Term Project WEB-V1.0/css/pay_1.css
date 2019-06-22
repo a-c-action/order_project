@@ -94,13 +94,19 @@ div.responsive_tabs{
 }
 
 /*Qr_code*/
-#qr_code .qr_code{
+#qr_code1 .qr_code1{
     width:400px;
     height:400px;
     text-align:center;
 }
-#qr_code{
-    /*display:none;*/
+
+#qr_code2 .qr_code2{
+    width:450px;
+    height:400px;
+    text-align:center;
+}
+#qr_code1{
+    display:none;
     /*display: block;*/
     position: fixed;
     /* z-index: 100; */
@@ -111,6 +117,18 @@ div.responsive_tabs{
     bottom: 350px;
     text-align: center;
 }
-.qr_codeNone{
+#qr_code2{
     display:none;
+    /*display: block;*/
+    position: fixed;
+    /* z-index: 100; */
+    width: 400px;
+    height: 400px;
+    background: #fff0;
+    right: 750px;
+    bottom: 350px;
+    text-align: center;
 }
+/*.qr_codeNone{
+    display:none;
+}*/
