@@ -1914,8 +1914,8 @@ var defaults = module.exports = {
     styles: '',
 
     strings: {
-        button: 'Check Out',
-        subtotal: 'Subtotal:',
+        button: '结账',
+        subtotal: '总计:',
         discount: 'Discount:',
         empty: 'Your shopping cart is empty'
     }
