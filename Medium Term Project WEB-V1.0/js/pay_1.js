@@ -51,6 +51,8 @@ $(function (){
 		    $(".check_2").attr("checked","true")
 				.attr("src","images_pay/pay_4.png");
 		}
+
+
 	})
 
 

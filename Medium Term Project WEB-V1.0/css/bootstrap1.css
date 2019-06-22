@@ -127,12 +127,7 @@ ol {/*1405*/
 }
 @media (min-width: 992px) {/*1583*/
   .container {
-    width: 970px;
-  }
-}
-@media (min-width: 992px) {/*1585*/
-  .container {
-    width: 970px;
+    width: 1400px;
   }
 }
 /*1604*/
